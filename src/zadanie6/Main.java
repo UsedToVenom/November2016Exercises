@@ -15,6 +15,7 @@ public class Main {
         System.out.println("srednia ze wszystkiego = " + sredniaAll);
         System.out.println("srednia ze scislych = " + sredniaScisle);
         System.out.println("srednia z humanistycznych = " + sredniaHumanistyczne);
+
 if (ocenaChemia == 1){
     System.out.println("Pala z chemii");
 }
@@ -39,6 +40,7 @@ if (sredniaHumanistyczne == 1) {
 if (sredniaScisle == 1){
     System.out.println("paly ze scislych!");
 }
+        System.out.println(sredniaScisle + " " + sredniaHumanistyczne + " " + sredniaAll);
 
     }
 
