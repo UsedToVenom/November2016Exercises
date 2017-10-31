@@ -49,9 +49,14 @@ public class Main {
 
             System.out.println("Srednia wartosc min i max to " +( (min + max)/2d));
             //tutaj wprowadz kod wyrzucajacy wyniki z arraya
-        } catch(NumberFormatException nfe){
+        } catch(NumberFormatException nfe ){
             System.out.println("To nie była liczba oszuście");
-        }
+        } catch (NegativeArraySizeException nase){
+            System.out.println("Liczba mniejsza od zero!");
+        }catch (ArrayIndexOutOfBoundsException aioobe){
+        System.out.println("Liczba rowna zero!");}
+
+
 
     }
 }
