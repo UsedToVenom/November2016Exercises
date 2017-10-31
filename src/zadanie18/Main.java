@@ -30,7 +30,7 @@ public class Main {
                 }
             }
             System.out.println(Arrays.toString(tabela));
-            int max = tabela[0];
+            int max = tabela[n-1];
             for (int i = 1; i < n; i++){
                 if (max <= tabela[i-1]){
                     max = tabela[i-1];
@@ -38,7 +38,7 @@ public class Main {
 //                System.out.println("to " + i + " przejście przez pętlę 1");
             }
                 System.out.println("max value to " + max);
-            int min = tabela [0];
+            int min = tabela [n-1];
             for (int i = 1; i < n; i++){
                 if (min >= tabela[i-1]){
                     min = tabela[i-1];
