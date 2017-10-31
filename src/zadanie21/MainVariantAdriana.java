@@ -20,7 +20,6 @@ public class MainVariantAdriana {
             y += 2;
             System.out.println();
         }
-
     }
 }
 

@@ -24,14 +24,12 @@ public class Main {
                         System.out.print("*");
                     }
                     if (kolumna == (2*wysokosc) - 1){
-                        System.out.println(" ");
+                        System.out.print("\n");
                     }
                 }
             }
-
         }catch(NumberFormatException nfe){
             System.out.println("To nie byla liczba oszuscie!");
         }
-
     }
 }
