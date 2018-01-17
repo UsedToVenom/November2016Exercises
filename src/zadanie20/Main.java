@@ -16,7 +16,6 @@ public class Main {
             if (commandLine.equals("hack")) {
                 System.out.println(randomNumber);
             }
-
             try {
                 int proba = Integer.parseInt(commandLine);
                 if (proba == randomNumber) {

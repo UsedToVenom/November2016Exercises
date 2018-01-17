@@ -6,6 +6,7 @@ public class Main {
     public static void main(String[] args) {
 
         while (true) {
+            System.out.println("podaj liczbę, ja pokażę Ci jej dzielniki!");
 
             int count = 0;
 
@@ -13,7 +14,6 @@ public class Main {
 
             String liniaLiczby = nasluchiwacz.nextLine();
 
-            System.out.println("podaj liczbę, ja pokażę Ci jej dzielniki!");
 
             try {
                 int liczba = Integer.parseInt(liniaLiczby);
