@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package zadanie28;
 
 import java.util.Arrays;
@@ -29,6 +30,21 @@ public class Main {
 
 
 
+=======
+//package zadanie28;
+//
+//import java.util.Arrays;
+//import java.util.Scanner;
+//
+//public class Main {
+//    public static void main(String[] args) {
+//        System.out.println("Buuuduujemy dziwną tabelę + i - \n Podaj liczbe zlotko");
+//
+//        Scanner listener = new Scanner(System.in);
+//
+//        String numberLine = listener.nextLine();
+//
+>>>>>>> d633f84ebee316d1985fd235026ff7261223efe0
 //        try {
 //            int number = Integer.parseInt(numberLine);
 //            System.out.print("  ");
@@ -82,7 +98,14 @@ public class Main {
 //        } catch (NumberFormatException nfe) {
 //            System.out.println("NOT A NUMBER");
 //        }
+<<<<<<< HEAD
     }
 }
 
 
+=======
+//    }
+//}
+//
+//
+>>>>>>> d633f84ebee316d1985fd235026ff7261223efe0
